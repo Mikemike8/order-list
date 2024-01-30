@@ -1,9 +1,11 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: wheat;
+    color: var(color);
 }
 
-
+header{
+      
+}
 img {
     width: 100px;
     height: 100px;

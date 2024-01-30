@@ -3,10 +3,29 @@ body{
     color: antiquewhite;
 }
 
-header{
-
-}
 img {
     width: 100px;
     height: 100px;
+}
+li{
+    opacity:1;
+    background:black;
+    z-index:  1;
+    position:relative; 
+    border:1px solid black; 
+    width:600px; 
+    height:400px;
+    justify-content: space-between;
+    color:{color:text};
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+li:hover {
+   
+    animation: 1s ease-in-out;
+    
 }
